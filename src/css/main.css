@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    color:white;
+    padding: 1rem;
+    border-top: 15px solid rgb(14, 76, 32);
+    border-bottom: 15px solid rgb(14, 76, 32);
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(217, 72, 72);
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+   color:white
+}
+
+
+.products-container {
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+}
+
+.carrito {
+    font-size: 1.5rem;
+}
